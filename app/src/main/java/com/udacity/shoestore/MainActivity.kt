@@ -6,6 +6,7 @@ import androidx.databinding.DataBindingUtil
 import com.udacity.shoestore.databinding.ActivityMainBinding
 import timber.log.Timber
 
+// Welcome Onboarding screen
 class MainActivity : AppCompatActivity() {
 
     // binding object
