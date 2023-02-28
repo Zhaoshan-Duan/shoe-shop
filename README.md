@@ -23,20 +23,20 @@ Open the starter project in Android Studio
 - Use DataBindingUtil to inflate every layout 
 
 1. [:heavy_check_mark:] Create a new Login destination.
-- [:heavy_check_mark:] Include email and password labels
-- [:heavy_check_mark:] Include email and password fields
-- [:heavy_check_mark:] Create buttons for creating a new login and logging in with an existing account
-- [:heavy_check_mark:] Clicking either button should navigate to the Welcome Screen.
+   - [:heavy_check_mark:] Include email and password labels
+   - [:heavy_check_mark:] Include email and password fields
+   - [:heavy_check_mark:] Create buttons for creating a new login and logging in with an existing account
+   - [:heavy_check_mark:] Clicking either button should navigate to the Welcome Screen.
 
 2. [:heavy_check_mark:] Create a new Welcome screen destination that includes:
-- [:heavy_check_mark:] A new layout
-- [:heavy_check_mark:] At least 2 textviews
-- [:heavy_check_mark:] A navigation button with actions to navigate to the instructions screen
+   - [:heavy_check_mark:] A new layout
+   - [:heavy_check_mark:] At least 2 textviews
+   - [:heavy_check_mark:] A navigation button with actions to navigate to the instructions screen
 
 3. Create a new Instruction destination that includes:
-- [:heavy_check_mark:] A new layout
-- [:heavy_check_mark:] At least 2 textviews
-- [:heavy_check_mark:] A navigation button with actions to navigate to the shoe list screen
+   - [:heavy_check_mark:] A new layout
+   - [:heavy_check_mark:] At least 2 textviews
+   - [:heavy_check_mark:] A navigation button with actions to navigate to the shoe list screen
 
 4. Create a class that extends ViewModel
 
