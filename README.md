@@ -49,7 +49,7 @@ Open the starter project in Android Studio
    - [:heavy_check_mark:] A LinearLayout for Shoe Items
    - [:heavy_check_mark:] A FloatingActionButton with an action to navigate to the shoe detail screen
 
-6. In MainActivity, setup the nav controller with the toolbar and an AppBarConfiguration.
+6. [:heavy_check_mark:] In MainActivity, setup the nav controller with the toolbar and an AppBarConfiguration.
 
 7. Create a new Shoe Detail destination that includes:
 
@@ -70,3 +70,7 @@ Open the starter project in Android Studio
    * Observe the shoes variable from the ViewModel
    * Use DataBindingUtil to inflate the shoe_list layout
    * Add a new layout item into the scrollview for each shoe.
+
+# Libaries Used
+
+- Navigation UI
