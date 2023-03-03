@@ -10,11 +10,11 @@
     <string name="button_login">log in</string>
     <string name="shoestore_logo">ShoeStore Logo</string>
     <string name="welcome_title_text">Welcome To Shoe Shop</string>
-    <string name="welcome_body_text">You have signed in!\n
-        We are excited to bring our store experience to your fingertips. Let\'s get started with your shoe shopping journey.\n
-        Press Continue to explore our collections to learn more about our exclusive features.</string>
+    <string name="welcome_body_text">You have signed in!\nWe are excited to bring our store experience to your fingertips. Let\'s get started with your shoe shopping journey.\nPress Continue to explore our collections to learn more about our exclusive features.</string>
     <string name="button_continue">Continue</string>
     <string name="instruction_title_text">Instruction</string>
     <string name="instruction_body_text">Welcome to onboarding! We are thrilled to introduce you to Shoe Store. Press Finish to complete the onboarding process, and start browsing.</string>
     <string name="finish_button_text">Finish</string>
+    <string name="fab_content_desc">floating action button</string>
+    <string name="scrollview_content_desc">Scroll View</string>
 </resources>
