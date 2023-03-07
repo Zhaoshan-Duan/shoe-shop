@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_detail_title"
+            style="@style/TitleStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_a_new_shoe"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_margin="@dimen/standard_margin"
+            />
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_detail_shoeName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/shoe_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_detail_title"
+            android:layout_margin="@dimen/standard_margin"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_detail_shoe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Chuck 70 Vintage Canvas" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+
+            android:id="@+id/textInputLayout_detail_company"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/company"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_detail_shoeName"
+            android:layout_margin="@dimen/standard_margin"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_detail_company"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Converse" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_detail_shoe_size"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shoe_size"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_detail_company"
+            android:layout_margin="@dimen/standard_margin"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_detail_shoe_size"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Men's 9.5" />
+
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayout_detail_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/shoe_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_detail_shoe_size"
+            android:layout_margin="@dimen/standard_margin"
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/et_detail_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:text="Good DeadLift Shoes with premium canvas in archival color." />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/standard_margin"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textInputLayout_detail_description">
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_detail_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:text="@string/save_btn_text" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btn_detail_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="12dp"
+                android:layout_toStartOf="@id/btn_detail_save"
+                android:text="@string/cancel_btn_text" />
+
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

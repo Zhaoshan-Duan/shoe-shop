@@ -53,13 +53,13 @@ Open the starter project in Android Studio
 
 7. Create a new Shoe Detail destination that includes:
 
-   * A new layout
-   * A TextView label and EditView for the
-     * Shoe Name
-     * Company
-     * Shoe Size
-     * Description
-   * A Cancel button with an action to navigate back to the shoe list screen
+   * [:heavy_check_mark:] A new layout
+   * [:heavy_check_mark:] A TextView label and EditView for the
+     * [:heavy_check_mark:] Shoe Name
+     * [:heavy_check_mark:] Company
+     * [:heavy_check_mark:] Shoe Size
+     * [:heavy_check_mark:] Description
+   * [:heavy_check_mark:] A Cancel button with an action to navigate back to the shoe list screen
    * A Save button with an action to navigate back to the shoe list screen and add a new Shoe to the Shoe View Model
 
 8. Make sure you can’t go back to onboarding screens

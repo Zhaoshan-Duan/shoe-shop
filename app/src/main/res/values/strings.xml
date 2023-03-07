@@ -17,4 +17,11 @@
     <string name="finish_button_text">Finish</string>
     <string name="fab_content_desc">floating action button</string>
     <string name="scrollview_content_desc">Scroll View</string>
+    <string name="shoe_name">Shoe Name</string>
+    <string name="company">Company</string>
+    <string name="shoe_size">Shoe Size</string>
+    <string name="shoe_description">Description</string>
+    <string name="save_btn_text">SAVE</string>
+    <string name="cancel_btn_text">Cancel</string>
+    <string name="add_a_new_shoe">Add New Shoe</string>
 </resources>
