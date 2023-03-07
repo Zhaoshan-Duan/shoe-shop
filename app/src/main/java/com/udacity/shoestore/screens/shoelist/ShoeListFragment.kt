@@ -18,10 +18,6 @@ class ShoeListFragment : Fragment() {
 
     private lateinit var viewModel: ShoeListViewModel
 
-    override fun onCreate(savedInstanceState: Bundle?) {
-        super.onCreate(savedInstanceState)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -37,12 +33,11 @@ class ShoeListFragment : Fragment() {
         })
 
         binding.fabShoelistDetail.setOnClickListener {
-            Log.i(TAG, "FAB Clicked")
+            it.findNavController().navigate(R.id.action_shoeListFragment_to_shoeDetailFragment)
         }
 
         // Menu
         setHasOptionsMenu(true)
-
 
         return binding.root
     }
@@ -61,6 +56,4 @@ class ShoeListFragment : Fragment() {
     companion object{
         const val TAG = "ShoeListFragment"
     }
-
-
 }

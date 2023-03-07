@@ -31,14 +31,14 @@
 
         <!-- Username -->
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/textInputLayout_login_username"
+            android:id="@+id/textInputLayout_detail_shoeName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="4dp"
             android:hint="@string/username">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/username_edit_text"
+                android:id="@+id/et_detail_shoe_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
 
