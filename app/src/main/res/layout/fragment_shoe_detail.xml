@@ -11,7 +11,7 @@
 
         <TextView
             android:id="@+id/tv_detail_title"
-            style="@style/TitleStyle"
+            style="@style/TextAppearance.ShoeShop.Title"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/add_a_new_shoe"
@@ -34,7 +34,7 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/et_detail_shoe_name"
+                android:id="@+id/et_detail_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 tools:text="Chuck 70 Vintage Canvas" />

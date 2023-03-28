@@ -21,7 +21,7 @@ class ShoeDetailFragment : Fragment() {
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_shoe_detail, container, false)
 
-        // Add the element programmatically
+        // TODO: Create a TextView Containing User Input and Add to List
         binding.btnDetailSave
 
 

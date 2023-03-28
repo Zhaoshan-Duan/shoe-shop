@@ -15,16 +15,19 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            style="@style/TitleStyle"
+            style="@style/TextAppearance.ShoeShop.Title"
             android:text="@string/welcome_title_text"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/welcome_body_text"
-            style="@style/StandardTextStyle" />
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="32dp"
+            style="@style/TextAppearance.ShoeShop.Body"
+            android:text="@string/welcome_body_text" />
 
-        <com.google.android.material.button.MaterialButton
+        <Button
+            style="@style/Widget.ShoeShop.Button"
             android:id="@+id/btn_welcome_continue"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

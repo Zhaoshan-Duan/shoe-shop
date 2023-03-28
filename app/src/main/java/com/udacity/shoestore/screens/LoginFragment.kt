@@ -24,13 +24,13 @@ class LoginFragment : Fragment() {
         val binding: FragmentLoginBinding = DataBindingUtil
             .inflate(inflater, R.layout.fragment_login, container, false)
 
-        binding.loginButton.setOnClickListener{
+        binding.btnLogin.setOnClickListener{
             // to weclome fragment
             it.findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
 
         }
 
-        binding.signinButton.setOnClickListener{
+        binding.btnSignin.setOnClickListener{
             // to weclome fragment
             it.findNavController().navigate(R.id.action_loginFragment_to_welcomeFragment)
         }

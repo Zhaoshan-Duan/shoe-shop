@@ -15,20 +15,22 @@
             android:padding="@dimen/padding">
 
             <TextView
+                style="@style/TextAppearance.ShoeShop.Title"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/instruction_title_text"
-                style="@style/TitleStyle"/>
+                android:text="@string/instruction_title_text" />
 
             <TextView
+                style="@style/TextAppearance.ShoeShop.Body"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                style="@style/StandardTextStyle"
-                android:text="@string/instruction_body_text"
-                />
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="32dp"
+                android:text="@string/instruction_body_text" />
 
             <Button
                 android:id="@+id/btn_instruction_finish"
+                style="@style/Widget.ShoeShop.Button"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="@string/finish_button_text" />
